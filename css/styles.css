@@ -265,7 +265,8 @@ margin-bottom: 14px;
 
 
 /* header style */
-.navigation-icon {fill: teal;}
+.navigation-icon {fill: teal;
+}
 
 .header-logo-text {
 display: flex;
@@ -289,24 +290,28 @@ align-items: center;
 letter-spacing: -0.02em;
 color: #111111;;
 }
-.nav_button_open_menu {padding:0;
+.nav_button_open_menu {
+  padding:0;
 border: none;
 line-height: 0;
 background-color: transparent;
 }
 @media screen and (max-width:1199px) {
-  .navigation_link_list {display: none;
+  .navigation_link_list {
+    display: none;
   }
-.navigation_social {display: none;
+.navigation_social {
+  display: none;
   }
 }
 /* header mobile menu */
-.header_container {padding-top: 20px;
+.header_container {
+  padding-top: 20px;
 padding-bottom: 14px;
 }
 .header_mobile_menu{ 
 width: 220px;
-height: 812px;
+height: 100%;
 background: #1E1823;
 position: fixed;
 top: 0;
@@ -316,10 +321,12 @@ visibility: hidden;
 pointer-events: none;
 z-index:999;
 }
-.header_mobile_menu.is-open {opacity: 1;
+.header_mobile_menu.is-open {
+  opacity: 1;
   visibility: visible;
   pointer-events: auto;}
-.icon_close_head {stroke: #FFFFFF;
+.icon_close_head {
+  stroke: #FFFFFF;
   position: absolute;
   top: 20px;
   right: 20px;
@@ -330,7 +337,8 @@ z-index:999;
 line-height: 0;
 background-color: transparent;
 }
-.header_mobile_container {padding: 20px;
+.header_mobile_container {
+  padding: 20px;
   height: 100%;
 }
 .header_menu_list_link {
@@ -343,7 +351,8 @@ background-color: transparent;
   letter-spacing: -0.02em;
   color: #FFFFFF;
 }
-.header_navigation {display: flex;
+.header_navigation {
+display: flex;
 justify-content: space-between;
 }
 .header_menu_list {
@@ -360,7 +369,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 }
-.header_menu_list_social {display: flex;
+.header_menu_list_social {
+display: flex;
 gap: 18px;
 position: absolute;
 left: 20px;
@@ -369,9 +379,9 @@ bottom: 20px;
 @media screen and (min-width:768px) {
   .header_mobile_menu {
     width: 290px;
-    height: 1024px;
   }
-  .header_container {padding-top: 24px;
+  .header_container {
+    padding-top: 24px;
     padding-bottom: 24px;}
 }
 @media screen and (min-width:1200px) {
@@ -387,10 +397,12 @@ bottom: 20px;
     align-items: center;
     column-gap: 24px;
   }
-  .navigation_social {display: flex;
+  .navigation_social {
+  display: flex;
   align-items: center;
   column-gap: 20px;
   }
-  .nav_button_open_menu {display: none;
+  .nav_button_open_menu {
+    display: none;
   } 
 }
